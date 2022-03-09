@@ -5,7 +5,7 @@
 // *************************************************
     $blanco : #e8e8e8;
     $negro: #2e2e2e;
-    
+
 // *************************************************
     basicos: (
         blanco: #fff,
@@ -39,3 +39,22 @@
         gris8: #757575,
 
     )
+// TIPOGRAFIA
+// *************************************************
+    $fuenteBase: 16px;
+    
+    $fontSize:(
+        // SEO
+        h1: 3rem,
+        h2: 2rem,
+        h3: 1.5rem,
+        links: 1.5rem,
+        // NO SEO
+        h4: 1rem,
+        parrafo: 1rem,
+
+        h5: 0.75rem,
+        h6: 0.5rem
+
+    )
+    $interlineado: 1.5rem;
