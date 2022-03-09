@@ -1,3 +1,40 @@
 /* ********* */
 /* @VARIABLES */
 /* ********* */
+// COLORES 
+// *************************************************
+    $blanco : #e8e8e8;
+    $negro: #2e2e2e;
+// *************************************************
+    basicos: (
+        blanco: #fff,
+        negro: #000
+    ),
+    fondo: (
+        base: #5D3E75
+    ),
+    texto:(
+        base: white,
+        parrafo: #B3A1CC
+    ),
+    botones:(
+        izq: #F2E287,
+        der: #DB9678
+    ),
+    links:(
+        base: white,
+        parrafo: #B3A1CC,
+        amarillo: #F2E287
+    ),
+    grises:(
+        base: #f5f5f5,
+        gris: #e5e5e5,
+        gris2: #d5d5d5,
+        gris3: #c5c5c5,
+        gris4: #b5b5b5,
+        gris5: #a5a5a5,
+        gris6: #959595,
+        gris7: #858585,
+        gris8: #757575,
+
+    )
