@@ -1,3 +1,40 @@
 /* ********* */
 /* @GRID*/
 /* ********* */
+// Grid de fondo
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr auto 2.5fr;
+
+    .contenido{
+        // posicion del contenido, en la segunda columna
+        grid-column: 2/3;
+        // subgrid para el contenido
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        // column-gap: 5px;
+        // navegación     
+        .menu{
+            grid-column: 2/7;
+        }
+        .ciudad{
+            grid-column: 2/3;
+        }
+        .titulo principal{
+            grid-column: 2/span-1;
+        }
+        .explicacion{
+            grid-column: 2/span-1;
+        }
+        // botones
+        .btn__yellow{
+            grid-column: 2/span 2;
+        }
+        .link__yellow{
+            grid-column: 4/span 2;
+        }
+        .link__scroll{
+            grid-column: 2/span-1;
+        }
+    }
+}
